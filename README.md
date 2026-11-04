@@ -1,6 +1,15 @@
 # GNSS single point positioning and smartphone GNSS/IMU analysis
 
+[![Python package](https://github.com/abdelhameedelharty/gnss-spp-smartphone/actions/workflows/python-package.yml/badge.svg)](https://github.com/abdelhameedelharty/gnss-spp-smartphone/actions/workflows/python-package.yml)
+![Python](https://img.shields.io/badge/python-3.11%20%7C%203.12%20%7C%203.13-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![GNSS](https://img.shields.io/badge/GNSS-GPS%20%7C%20GLONASS%20%7C%20Galileo%20%7C%20BeiDou%20%7C%20QZSS-informational)
+
 Python tools that compute GNSS single point positions (SPP) from RINEX files. They also analyse raw GNSS and motion-sensor logs from an Android phone (Google GnssLogger) for indoor–outdoor walks. The repository contains the code, the phone logs it was run on (October 2026) and the results.
+
+<p align="center">
+  <img src="analysis_2026-10-06_22-09-55/1_map.png" alt="Walk around a block: phone GPS track, SPP positions coloured by C/N0, and PDR" width="720">
+</p>
 
 ## Scripts
 
@@ -35,3 +44,7 @@ Python 3 with `numpy`, `pandas`, `scipy`, `matplotlib` and `openpyxl`:
 ```bash
 pip install numpy pandas scipy matplotlib openpyxl
 ```
+
+## License
+
+[MIT](LICENSE)
