@@ -1,0 +1,5 @@
+segment,steps,cadence [steps/s],cadence FFT [steps/s],mean step length [m],walking share [%],|B| median [uT],|B| range [uT],"heading mag - gyro, median abs [deg]",height change [m],PDR - phone GNSS at end of segment [m]
+0-35 s near buildings,57,1.63,1.72,0.75,100,55.0,26.6,2.6,0.05,13.0
+35-65 s GNSS blocked,49,1.63,1.73,0.7,98,54.0,46.3,4.4,0.84,25.4
+65-97 s open area,41,1.28,1.47,0.66,95,48.9,28.6,1.0,0.32,23.5
+97-120 s end,36,1.5,1.48,0.66,100,54.4,19.0,1.7,0.14,21.2

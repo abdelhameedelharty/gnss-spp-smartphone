@@ -1,0 +1,3 @@
+solution,epochs solved,epochs reliable,mean satellites,median HDOP,median sigma0,median RMS residual [m],epochs with rejections,median 2D diff to phone fix [m],95% 2D diff to phone fix [m]
+GPS,95,24 of 120,6.2,1.41,1.1,4.49,19,18.41,72.47
+GPS+GLONASS,95,74 of 120,8.3,1.76,1.04,4.87,56,15.12,53.98
